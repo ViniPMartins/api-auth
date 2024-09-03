@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "api-auth"
+version = "0.1.0"
+description = ""
+authors = ["ViniPMartins <vinicius.pereira.mts@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_auth"}]
+
+[tool.poetry.dependencies]
+python = ">3.9.7,<4.0.0"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+python-jose = "^3.3.0"
+streamlit = "^1.38.0"
+requests = "^2.32.3"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
